@@ -7,6 +7,7 @@ export default {
     text: '#343434',
     shadow: '#D6270D',
 
-    background: '#D0D1D3'
+    background: '#D0D1D3',
+    background_page: '#EEEEEE'
   }
 }

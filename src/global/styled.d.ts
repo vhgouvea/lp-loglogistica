@@ -10,6 +10,7 @@ declare module 'styled-components' {
       text: string;
       shadow: string;
       background: string;
+      background_page: string;
     }
   }
 }

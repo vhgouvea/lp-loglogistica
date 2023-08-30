@@ -5,4 +5,5 @@ export const Container = styled.div`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: ${props => props.theme.colors.background_page};
 `;
