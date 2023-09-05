@@ -24,7 +24,7 @@ export function Header() {
       <ContentList>
         {ListaDados.map(item => (
           <ItemsList>
-            <Text href="#" className="hover-underline-animation">{item.name}</Text>
+            <Text href={item.href} className="hover-underline-animation">{item.name}</Text>
           </ItemsList>
         ))}
       </ContentList>

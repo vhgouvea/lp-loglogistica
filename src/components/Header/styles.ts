@@ -92,9 +92,9 @@ export const ItemsList = styled.li`
 
 export const Text = styled.a`
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: ${props => props.theme.colors.text};
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   :hover {
     color: ${props => props.theme.colors.text_light};
@@ -105,8 +105,7 @@ export const TextButton = styled.a`
   text-decoration: none;
   font-size: 11px;
   color: ${props => props.theme.colors.text};
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  font-family: 'Poppins', sans-serif;
 
 `;
 

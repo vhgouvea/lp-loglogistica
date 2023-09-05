@@ -12,5 +12,6 @@ declare module 'styled-components' {
       background: string;
       background_page: string;
     }
+    
   }
 }
