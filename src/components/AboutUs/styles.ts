@@ -27,7 +27,7 @@ export const ContentText = styled.div`
 export const ContentTitle = styled.div`
   text-align: center;
   height: 50px;
-  border-bottom: 2px solid ${props => props.theme.colors.primary};
+  /* border-bottom: 2px solid ${props => props.theme.colors.primary}; */
 `;
 
 export const Title = styled.h1`

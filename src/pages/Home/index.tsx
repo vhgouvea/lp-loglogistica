@@ -12,6 +12,7 @@ import {
  } from './styles';
 import { Header } from "../../components/Header";
 import { AboutUs } from "../../components/AboutUs";
+import { Services } from "../../components/Services";
 
 export function Home() {
     return (
@@ -21,6 +22,7 @@ export function Home() {
 
             <Content>
                 <AboutUs />
+                <Services />
             </Content>
 
             <FloatingWhatsApp 
