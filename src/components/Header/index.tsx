@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import {
   Button,
   Container, 
@@ -21,13 +21,13 @@ export function Header() {
       <Content>
         <ImageBackground src={Logo} />
       </Content>
-      <ContentList>
-        {ListaDados.map(item => (
-          <ItemsList>
-            <Text href={item.href} className="hover-underline-animation">{item.name}</Text>
-          </ItemsList>
-        ))}
-      </ContentList>
+        <ContentList>
+          {ListaDados.map(item => (
+            <ItemsList>
+              <Text href={item.href} className="hover-underline-animation">{item.name}</Text>
+            </ItemsList>
+          ))}
+        </ContentList>
 
       <Content>
         <Button  className="button">

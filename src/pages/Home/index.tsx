@@ -13,6 +13,7 @@ import {
 import { Header } from "../../components/Header";
 import { AboutUs } from "../../components/AboutUs";
 import { Services } from "../../components/Services";
+import { Footer } from "../../components/Footer/Index";
 
 export function Home() {
     return (
@@ -32,6 +33,7 @@ export function Home() {
                 chatMessage="Olá, como posso ajuda-lo?"
                 allowEsc={true}
             />
+            <Footer/>
         </Container>
     )   
 }
