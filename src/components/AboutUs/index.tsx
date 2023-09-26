@@ -3,7 +3,7 @@ import ImageAboutUs from '../../assets/aboutus.jpg';
 
 export function AboutUs() {
   return (
-    <div className="flex flex-col items-center md:flex-row md:justify-between h-auto md:h-500">
+    <div className="flex flex-col items-center md:flex-row md:justify-between h-auto md:h-500 mt-24">
       <div className="md:w-1/2">
         <img src={ImageAboutUs} alt="Sobre nós" className="w-full h-auto"></img>
       </div>

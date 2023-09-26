@@ -15,6 +15,7 @@ import { AboutUs } from "../../components/AboutUs";
 import { Services } from "../../components/Services";
 import { Footer } from "../../components/Footer/Index";
 import { Testimonials } from "../../components/Testimonials";
+import { MissionVisionValues } from "../../components/MissionVisionValues";
 
 export function Home() {
     return (
@@ -26,6 +27,7 @@ export function Home() {
                 <AboutUs />
                 <Services />
                 <Testimonials />
+                <MissionVisionValues />
             </Content>
 
             <FloatingWhatsApp 
