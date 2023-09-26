@@ -19,6 +19,7 @@ module.exports = {
           xl: '2rem',
         },
       },
+    },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         title: ['Unbounded Variable', 'sans-serif'],

@@ -13,6 +13,7 @@ import {
 import { Header } from "../../components/Header";
 import { AboutUs } from "../../components/AboutUs";
 import { Services } from "../../components/Services";
+import { Footer } from "../../components/Footer/Index";
 import { Testimonials } from "../../components/Testimonials";
 
 export function Home() {
@@ -34,6 +35,7 @@ export function Home() {
                 chatMessage="Olá, como posso ajuda-lo?"
                 allowEsc={true}
             />
+            <Footer/>
         </Container>
     )   
 }
