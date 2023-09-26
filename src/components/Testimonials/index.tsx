@@ -81,7 +81,7 @@ export function Testimonials() {
           </span>
         </button>
         <div className="text-center">
-          <p className="text-2xl text-gray-700 relative font-poppins w-full">
+          <p className="text-title text-2xl md:text-xl font-poppins">
             Depoimentos
           </p>
           <div className="bg-white p-4 rounded-lg shadow-md">

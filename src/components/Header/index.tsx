@@ -13,6 +13,7 @@ import {
 import Logo from '../../assets/logo.png'
 
 import ListaDados from './dadosHeader';
+import SmoothScrollAnchor from "../../hooks/SmoothScrollAnchor";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,12 +31,13 @@ export function Header() {
         <ul className="w-3/5 flex justify-between items-center p-0 m-0">
           {ListaDados.map((item, index) => (
             <li key={index} className="list-none">
-              <a
-                href={item.href}
+              <SmoothScrollAnchor targetId={item.href} children={item.name} styles={'text-base font-medium text-gray-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none'}/>
+              {/* <a
+                href={}
                 className="text-base font-medium text-gray-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none"
               >
                 {item.name}
-              </a>
+              </a> */}
             </li>
           ))}
         </ul>

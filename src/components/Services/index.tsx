@@ -8,9 +8,9 @@ import CaixaTermica from '../../assets/caixa-termica.jpg';
 
 export function Services() {
   return  (
-    <div className="w-full px-10 flex flex-col items-center justify-center">
+    <div id="services" className="w-full px-10 flex flex-col items-center justify-center">
       <div className="text-center h-5">
-        <h1 className="text-2xl text-title">Serviços</h1>
+        <h1 className="text-title text-2xl md:text-xl font-poppins">Serviços</h1>
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
         <div className="bg-gray-100 rounded-lg border-2 border-b-red-600 shadow-2xl p-4 h-500">
