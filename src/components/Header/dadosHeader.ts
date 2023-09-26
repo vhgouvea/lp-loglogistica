@@ -1,19 +1,19 @@
 const ListaDados = [
   {
     name: 'Home',
-    href: "AboutUs"
+    href: "home"
   },
   {
     name: 'Conheço a Log',
-    href: "AboutUs"
+    href: "aboutUs"
   },
   {
     name: 'Serviços',
     href: "services"
   },
   {
-    name: 'Área de Atuação',
-    href: "AboutUs"
+    name: 'Nossos Clientes',
+    href: "clientes"
   },
   {
     name: 'Contato',

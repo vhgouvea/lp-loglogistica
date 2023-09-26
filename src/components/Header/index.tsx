@@ -31,7 +31,7 @@ export function Header() {
         <ul className="w-3/5 flex justify-between items-center p-0 m-0">
           {ListaDados.map((item, index) => (
             <li key={index} className="list-none">
-              <SmoothScrollAnchor targetId={item.href} children={item.name} styles={'text-base font-medium text-gray-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none'}/>
+              <SmoothScrollAnchor targetId={item.href} children={item.name} styles={'text-base font-medium text-text transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none'}/>
               {/* <a
                 href={}
                 className="text-base font-medium text-gray-500 transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none"
@@ -43,7 +43,7 @@ export function Header() {
         </ul>
         <div className="flex items-center justify-center">
           <button className="bg-white w-32 h-10 font-medium text-base text-black border border-gray-400 rounded-md shadow-md hover:bg-red-600 hover:text-white hover:border-red-600 hover:cursor-pointer focus:outline-none transition duration-300 ease-in-out">
-            <a href="https://loglogin.azurewebsites.net/" target="_blank" rel="noreferrer" className="text-button">
+            <a href="https://loglogin.azurewebsites.net/" target="_blank" rel="noreferrer" className="text-button text-text">
               Área do Cliente
             </a>
           </button>
@@ -57,7 +57,7 @@ export function Header() {
         </div>
         <div className="w-1/5 flex items-center justify-center">
           <button
-            className="text-button text-base font-medium hover:cursor-pointer focus:outline-none text-gray-500"
+            className="text-button text-base font-medium hover:cursor-pointer focus:outline-none text-text"
             onClick={toggleMenu}
           >
             Menu
@@ -73,14 +73,14 @@ export function Header() {
               <li key={index} className="list-none mb-4 ">
                 <a
                   href={item.href}
-                  className="text-base font-medium text-gray-500 hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer hover:py-2 focus:outline-none"
+                  className="text-base font-medium text-text hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer hover:py-2 focus:outline-none"
                 >
                   {item.name}
                 </a>
               </li>
             ))}
             <button className="bg-white mb-4 w-32 h-10 font-medium text-base text-black border border-gray-400 rounded-md shadow-md hover:bg-red-600 hover:text-white hover:border-red-600 hover:cursor-pointer focus:outline-none transition duration-300 ease-in-out">
-              <a href="https://loglogin.azurewebsites.net/" target="_blank" rel="noreferrer" className="text-button">
+              <a href="https://loglogin.azurewebsites.net/" target="_blank" rel="noreferrer" className="text-button text-text">
                 Área do Cliente
               </a>
             </button>

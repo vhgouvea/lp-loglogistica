@@ -20,19 +20,18 @@ module.exports = {
         },
       },
     },
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        title: ['Unbounded Variable', 'sans-serif'],
-      },
-      fontSize: {
-        '3xl': '2rem',
-      },
-      textColor: {
-        title: '#353535', // Cor personalizada para h1
-        text: '#818181',   // Cor personalizada para p
-      }
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
+      title: ['Unbounded Variable', 'sans-serif'],
     },
+    fontSize: {
+      '3xl': '2rem',
+    },
+    textColor: {
+      title: '#353535', // Cor personalizada para h1
+      text: '#818181',   // Cor personalizada para p
+    }
   },
   plugins: [],
-};
+}
 
