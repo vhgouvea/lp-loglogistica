@@ -11,14 +11,6 @@ const ListaDados = [
     name: 'Serviços',
     href: "AboutUs"
   },
-  // {
-  //   name: 'Diferenciais',
-  //   href: "AboutUs"
-  // },
-  // {
-  //   name: 'Orçamento',
-  //   href: "AboutUs"
-  // },
   {
     name: 'Área de Atuação',
     href: "AboutUs"

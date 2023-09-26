@@ -14,6 +14,7 @@ import { Header } from "../../components/Header";
 import { AboutUs } from "../../components/AboutUs";
 import { Services } from "../../components/Services";
 import { Footer } from "../../components/Footer/Index";
+import { Testimonials } from "../../components/Testimonials";
 
 export function Home() {
     return (
@@ -24,6 +25,7 @@ export function Home() {
             <Content>
                 <AboutUs />
                 <Services />
+                <Testimonials />
             </Content>
 
             <FloatingWhatsApp 
