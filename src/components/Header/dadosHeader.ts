@@ -16,8 +16,8 @@ const ListaDados = [
     href: "AboutUs"
   },
   {
-    name: 'Trabalhe Conosco',
-    href: "AboutUs"
+    name: 'Contato',
+    href: "Contact"
   }
 ]
 
