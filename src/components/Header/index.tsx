@@ -22,7 +22,7 @@ export function Header() {
     setMenuOpen(!menuOpen);
   };
   return (
-    <div className="w-full border-b border-gray-300">
+    <div id="home" className="w-full border-b border-gray-300">
       {/* Desktop Header (largura maior que 1024px) */}
       <div className="hidden px-8 lg:flex justify-between items-center h-20">
         <div className="w-32 h-20 flex items-center justify-center">

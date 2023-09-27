@@ -5,7 +5,7 @@ import Logo from '../../assets/logo.png'
 export function Footer() {
 
   return (
-    <footer className="bg-gray-50 mt-24 ">
+    <footer id="contact" className="bg-gray-50 mt-24 ">
         <div className="container pt-6 pb-6">
             <div className="sm:flex md:items-center sm:justify-between text-black sm:flex-row ">
 
