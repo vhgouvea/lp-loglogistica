@@ -5,28 +5,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
+import Missao from '../../assets/missao.png';
+import Valores from '../../assets/valores.png';
+import Visao from '../../assets/visao.png';
+
 export function MissionVisionValues() {
   return(
     <Container>
       <Card>
-        {/* <ContentIcon>
-          <FontAwesomeIcon icon={'alarm-plus'} />
-        </ContentIcon> */}
+        <ContentIcon>
+          <img src={Missao} alt="missao" className="w-24 h-24" />
+        </ContentIcon>
+        <ContentTitle>
+          <Title>Missão</Title>
+        </ContentTitle>
         <ContentText>
-          <ContentTitle>
-            <Title>Missão</Title>
-          </ContentTitle>
           <Text>Promover soluções em logística integrada e transporte de cargas com qualidade, segurança e pontualidade sempre visando superar as expectativas dos nossos clientes e do mercado.</Text>
         </ContentText>
       </Card>
       <Card>
-        {/* <ContentIcon>
-          <FontAwesomeIcon icon={'alarm-plus'} style={{color: 'red'}} />
-        </ContentIcon> */}
+        <ContentIcon>
+          <img src={Valores} alt="valores" className="w-24 h-24" />
+        </ContentIcon>
+        <ContentTitle>
+          <Title>Valores</Title>
+        </ContentTitle>
         <ContentText>
-          <ContentTitle>
-            <Title>Valores</Title>
-          </ContentTitle>
           <Text style={{textAlign: 'center'}}>
             Confiança e Qualidade <br></br>
             Segurança e sigilo nas informações <br></br>
@@ -39,13 +43,13 @@ export function MissionVisionValues() {
         </ContentText>
       </Card>
       <Card>
-        {/* <ContentIcon>
-          <FontAwesomeIcon icon={'alarm-plus'} />
-        </ContentIcon> */}
+        <ContentIcon>
+          <img src={Visao} alt="visao" className="w-24 h-24" />
+        </ContentIcon>
+        <ContentTitle>
+          <Title>Visão</Title>
+        </ContentTitle>
         <ContentText>
-          <ContentTitle>
-            <Title>Visão</Title>
-          </ContentTitle>
           <Text>Oferecer soluções de excelência em logística integrada e transporte de cargas em todo estado da Bahia, viabilizando a distribuição dos materiais dos nossos clientes, dando visibilidade das nossas ações ao mercado.</Text>
         </ContentText>
       </Card>

@@ -21,7 +21,9 @@ export const Card = styled.div`
 
 export const ContentIcon = styled.div`
   width: 100%;
+  display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
 `;
 
@@ -34,6 +36,7 @@ export const ContentTitle = styled.div`
 
 export const ContentText = styled.div`
   width: 100%;
+  height: 150px;
   display: flex;
   flex-direction: column;
   text-align: justify;
