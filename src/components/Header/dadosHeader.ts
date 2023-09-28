@@ -13,11 +13,11 @@ const ListaDados = [
   },
   {
     name: 'Nossos Clientes',
-    href: "clientes"
+    href: "testimonial"
   },
   {
     name: 'Contato',
-    href: "Contact"
+    href: "contact"
   }
 ]
 

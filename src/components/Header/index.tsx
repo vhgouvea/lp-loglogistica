@@ -22,7 +22,7 @@ export function Header() {
     setMenuOpen(!menuOpen);
   };
   return (
-    <div className="w-full border-b border-gray-300">
+    <div id="home" className="w-full border-b border-gray-300">
       {/* Desktop Header (largura maior que 1024px) */}
       <div className="hidden px-8 lg:flex justify-between items-center h-20">
         <div className="w-32 h-20 flex items-center justify-center">
@@ -71,12 +71,7 @@ export function Header() {
           <ul className="flex flex-col items-center p-0 m-0">
             {ListaDados.map((item, index) => (
               <li key={index} className="list-none mb-4 ">
-                <a
-                  href={item.href}
-                  className="text-base font-medium text-text hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer hover:py-2 focus:outline-none"
-                >
-                  {item.name}
-                </a>
+                <SmoothScrollAnchor targetId={item.href} children={item.name} styles={'text-base font-medium text-text hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer hover:py-2 focus:outline-none'}/>
               </li>
             ))}
             <button className="bg-white mb-4 w-32 h-10 font-medium text-base text-black border border-gray-400 rounded-md shadow-md hover:bg-red-600 hover:text-white hover:border-red-600 hover:cursor-pointer focus:outline-none transition duration-300 ease-in-out">
