@@ -15,9 +15,8 @@ export function Biological() {
           <p>A LOG TRANSPORTES possui alvará de Saúde emitido pela coordenação de vigilância sanitária municipal (visa), órgão responsável pela fiscalização e emissão da autorização para o transporte das amostras.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
-            <img src="https://via.placeholder.com/400x400" alt="" />
+            <img className="max-w-[400px] max-h-[400px]" src="https://via.placeholder.com/400x400" alt="" />
             <div>
-            
             <div>
               <p className="mb-3 mt-8">
               A LOG TRANSPORTES possui alvará de Saúde emitido pela coordenação de vigilância sanitária municipal (visa), órgão responsável pela fiscalização e emissão da autorização para o transporte das amostras.</p>
@@ -84,15 +83,15 @@ export function Biological() {
                 
             </div>
             <div className="w-full ">
-            <p className="text-center mx-auto text-3xl pb-6" >Entre em contato</p>
-            <div className="border-b border-gray-200 max-w-lg mx-auto"></div>
-              <div className="max-w-[280px] text-center sm:text-start mx-auto sm:mx-0  lg:mx-auto mt-7 space-y-6 ">
-                  <div className="flex gap-x-2 items-center">
-                  <svg width="46px" height="46px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.7 15C4.03377 15.6353 3 16.5205 3 17.4997C3 19.4329 7.02944 21 12 21C16.9706 21 21 19.4329 21 17.4997C21 16.5205 19.9662 15.6353 18.3 15M12 9H12.01M18 9C18 13.0637 13.5 15 12 18C10.5 15 6 13.0637 6 9C6 5.68629 8.68629 3 12 3C15.3137 3 18 5.68629 18 9ZM13 9C13 9.55228 12.5523 10 12 10C11.4477 10 11 9.55228 11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    <p className="hover:text-[#FF0000] cursor-pointer">Av. Antônio Carlos Magalhães Nº2671
-                        Edf. Bahia Center, Sala 1005 Parque Bela Vista
-                        Salvador - Bahia
-                    </p>
+                <p className="text-center mx-auto text-3xl pb-6" >Entre em contato</p>
+                <div className="border-b border-gray-200 max-w-lg mx-auto"></div>
+                     <div className="max-w-[280px] text-center sm:text-start mx-auto sm:mx-0  lg:mx-auto mt-7 space-y-6 ">
+                        <div className="flex gap-x-2 items-center">
+                            <svg width="46px" height="46px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5.7 15C4.03377 15.6353 3 16.5205 3 17.4997C3 19.4329 7.02944 21 12 21C16.9706 21 21 19.4329 21 17.4997C21 16.5205 19.9662 15.6353 18.3 15M12 9H12.01M18 9C18 13.0637 13.5 15 12 18C10.5 15 6 13.0637 6 9C6 5.68629 8.68629 3 12 3C15.3137 3 18 5.68629 18 9ZM13 9C13 9.55228 12.5523 10 12 10C11.4477 10 11 9.55228 11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            <p className="hover:text-[#FF0000] cursor-pointer">Av. Antônio Carlos Magalhães Nº2671
+                                Edf. Bahia Center, Sala 1005 Parque Bela Vista
+                                Salvador - Bahia
+                            </p>
 
                   </div>
                   <div className="flex gap-x-2 items-center">

@@ -15,7 +15,7 @@ export function Motoboy() {
           <p>O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
-            <img src="https://via.placeholder.com/400x400" alt="" />
+        <img className="max-w-[400px] max-h-[400px]" src="https://via.placeholder.com/400x400" alt="" />
             <div>
             
             <div>
