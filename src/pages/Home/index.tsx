@@ -1,6 +1,4 @@
 import React from "react";
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 import Logo from '../../assets/logo-com-fundo.png';
@@ -16,6 +14,8 @@ import { Services } from "../../components/Services";
 import { Footer } from "../../components/Footer/Index";
 import { Testimonials } from "../../components/Testimonials";
 import { MissionVisionValues } from "../../components/MissionVisionValues";
+import { Motoboy } from "../../components/LearnMoreMotocycle/Index";
+
 
 export function Home() {
     return (
@@ -37,7 +37,10 @@ export function Home() {
                 chatMessage="Olá, como posso ajuda-lo?"
                 allowEsc={true}
             />
+            <Motoboy/>
             <Footer/>
         </Container>
+        
+
     )   
 }
