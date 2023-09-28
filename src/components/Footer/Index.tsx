@@ -59,7 +59,7 @@ export function Footer() {
         </div>
 
             <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.9296441603783!2d-47.90429057474722!3d-21.975663155258406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b870f350ff27c7%3A0x10e4a010420297fa!2sVillage%20Damha%20I%2C%20S%C3%A3o%20Carlos%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1695343418531!5m2!1spt-BR!2sbr" width="100%" height="250" loading="lazy"  title="maps"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5578.056768869889!2d-38.473401283016194!3d-12.988893777813278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3889fb574b%3A0x3e98edcaaf0fdf3d!2sEdif%C3%ADcio%20Bahia%20Center!5e0!3m2!1spt-BR!2sbr!4v1695940394529!5m2!1spt-BR!2sbr" width="100%" height="250" loading="lazy"  title="maps"></iframe>
             </div>
 
         <div className="bg-gray-100 text-black flex justify-center py-3 sm:flex-row flex-col items-center">
