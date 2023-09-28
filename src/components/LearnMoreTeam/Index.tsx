@@ -1,18 +1,18 @@
 
 import React from "react";
 
-export function Motoboy() {
+export function Team() {
 
   return (
     <section className="text-title mt-96">
 
     <div className="flex justify-center pt-9 pb-9 text-xl bg-gray-300">
-        <p className="text-3xl text-black">Serviço mensal de Motoboys</p>
+        <p className="text-3xl text-black">Fornecimento de equipes administrativas</p>
     </div>
         
     <div className="container">
         <div className="pt-12 pb-12 max-w-4xl mx-auto">
-          <p>O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio.</p>
+          <p>Quando o nosso parceiro necessita de colaborador para o seu quadro administrativo ou operacional, a LOG fornece profissional já adaptado e com experiência.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
             <img src="https://via.placeholder.com/400x400" alt="" />
@@ -20,9 +20,9 @@ export function Motoboy() {
             
             <div>
               <p className="mb-3 mt-8">
-              O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio. </p>
+              Quando o nosso parceiro necessita de colaborador para o seu quadro administrativo ou operacional, a LOG fornece profissional já adaptado e com experiência.</p>
               <p>
-              Motoboys treinados e com perfil especifico fornecidos ao cliente em tempo integral (full time - 44 horas mensais) ou parcial (part time - 20 horas mensais de 08-12 ou 14-18) e de forma exclusiva e dedicada. Também customizamos a jornada do motoboy de acordo com a demanda do cliente. 
+              Em busca de um atendimento mais completo a seus clientes, a LOG TRANSPORTES passou a oferecer além dos tradicionais serviços de transporte e logística, profissionais para tarefas auxiliares na área, como supervisor e auxiliar de logística, encarregado de transporte, estoquista e demais funções. Após a solicitação do perfil profissional pelo cliente, identificamos o profissional dentro do nosso quadro ou buscamos no mercado de acordo com o nosso extenso banco de currículos. Todos os colaboradores contratados e alocados no cliente passam por um regime de treinamento e posterior direcionamento ao cliente visando uma melhor adaptação.
               </p>
             </div> 
             <div className="flex justify-between mt-20 items-center">

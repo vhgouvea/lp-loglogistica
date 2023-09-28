@@ -1,18 +1,18 @@
 
 import React from "react";
 
-export function Motoboy() {
+export function Car() {
 
   return (
     <section className="text-title mt-96">
 
     <div className="flex justify-center pt-9 pb-9 text-xl bg-gray-300">
-        <p className="text-3xl text-black">Serviço mensal de Motoboys</p>
+        <p className="text-3xl text-black">Locação mensal de Veículos Utilitários</p>
     </div>
         
     <div className="container">
         <div className="pt-12 pb-12 max-w-4xl mx-auto">
-          <p>O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio.</p>
+          <p>Acompanhando a crescente demanda de nossos clientes, a LOG TRANSPORTES oferece solução logística para o fornecimento de veículos utilitários, com ou sem motoristas habilitados para o transporte contínuo de mercadorias, de forma exclusiva e dedicada.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
             <img src="https://via.placeholder.com/400x400" alt="" />
@@ -20,9 +20,9 @@ export function Motoboy() {
             
             <div>
               <p className="mb-3 mt-8">
-              O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio. </p>
+              Acompanhando a crescente demanda de nossos clientes, a LOG TRANSPORTES oferece solução logística para o fornecimento de veículos utilitários, com ou sem motoristas habilitados para o transporte contínuo de mercadorias, de forma exclusiva e dedicada.</p>
               <p>
-              Motoboys treinados e com perfil especifico fornecidos ao cliente em tempo integral (full time - 44 horas mensais) ou parcial (part time - 20 horas mensais de 08-12 ou 14-18) e de forma exclusiva e dedicada. Também customizamos a jornada do motoboy de acordo com a demanda do cliente. 
+              A LOG TRANSPORTES dispõe de frota própria e renovada periodicamente para locação mensal com um motorista treinado e habilitado de acordo com a dimensão do veiculo. Oferecemos utilitários abertos, fechados e profissionais treinados para toda operação logística. Todos os veículos são rastreados e segurados.
               </p>
             </div> 
             <div className="flex justify-between mt-20 items-center">
@@ -54,7 +54,7 @@ export function Motoboy() {
             </div>
             </div>
         </div>
-        <div className=" flex flex-col lg:flex lg:flex-row mt-96 lg:mt-8">
+        <div className=" flex flex-col lg:flex lg:flex-row mt-96">
           <div className="mx-auto md:mx-0">
 
               <p className="text-center text-3xl mb-6 ">Mande sua mensagem</p>

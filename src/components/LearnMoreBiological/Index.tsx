@@ -1,18 +1,18 @@
 
 import React from "react";
 
-export function Motoboy() {
+export function Biological() {
 
   return (
     <section className="text-title mt-96">
 
     <div className="flex justify-center pt-9 pb-9 text-xl bg-gray-300">
-        <p className="text-3xl text-black">Serviço mensal de Motoboys</p>
+        <p className="text-3xl text-black">Transporte de Material Biológico</p>
     </div>
         
     <div className="container">
         <div className="pt-12 pb-12 max-w-4xl mx-auto">
-          <p>O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio.</p>
+          <p>A LOG TRANSPORTES possui alvará de Saúde emitido pela coordenação de vigilância sanitária municipal (visa), órgão responsável pela fiscalização e emissão da autorização para o transporte das amostras.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
             <img src="https://via.placeholder.com/400x400" alt="" />
@@ -20,9 +20,9 @@ export function Motoboy() {
             
             <div>
               <p className="mb-3 mt-8">
-              O Serviço que é o carro chefe da LOG. Motoboys treinados e especializados em diversos segmentos. Ao contratar um Motoboy da LOG, você terá a certeza de um serviço de qualidade e direcionado ao seu negócio. </p>
+              A LOG TRANSPORTES possui alvará de Saúde emitido pela coordenação de vigilância sanitária municipal (visa), órgão responsável pela fiscalização e emissão da autorização para o transporte das amostras.</p>
               <p>
-              Motoboys treinados e com perfil especifico fornecidos ao cliente em tempo integral (full time - 44 horas mensais) ou parcial (part time - 20 horas mensais de 08-12 ou 14-18) e de forma exclusiva e dedicada. Também customizamos a jornada do motoboy de acordo com a demanda do cliente. 
+              Reafirmando o nosso compromisso com as exigências técnicas exigidas para a realização da atividade de transporte de amostras biológicas, a LOG TRANSPORTES é credenciada e homologada para realizar o transporte de amostras dessa natureza. De acordo com RDC 20, emitida pela ANVISA, as empresas de transporte de mercadorias realizadas por motoboys devem se adequar à norma regulamentadora a fim de estarem aptas e credenciadas ao transporte de amostras biológicas. A LOG TRANSPORTES possui alvará de Saúde emitido pela coordenação de vigilância sanitária municipal (visa), órgão responsável pela fiscalização e emissão da autorização para o transporte das amostras. Os nossos motoboys também possuem cursos de formação e reciclagem para o transporte especifico e para tanto, as motocicletas também passam pelo processo de liberação e cadastramento junto à vigilância sanitária
               </p>
             </div> 
             <div className="flex justify-between mt-20 items-center">
@@ -54,7 +54,7 @@ export function Motoboy() {
             </div>
             </div>
         </div>
-        <div className=" flex flex-col lg:flex lg:flex-row mt-96 lg:mt-8">
+        <div className=" flex flex-col lg:flex lg:flex-row mt-96">
           <div className="mx-auto md:mx-0">
 
               <p className="text-center text-3xl mb-6 ">Mande sua mensagem</p>
