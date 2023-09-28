@@ -20,7 +20,7 @@ import { Motoboy } from "../../components/LearnMoreMotocycle/Index";
 export function Home() {
     return (
         <Container>
-            <Header />
+            {/* <Header /> */}
             <ImageBackground src={Banner} />
 
             <Content>
@@ -37,8 +37,7 @@ export function Home() {
                 chatMessage="Olá, como posso ajuda-lo?"
                 allowEsc={true}
             />
-            <Motoboy/>
-            <Footer/>
+            {/* <Footer/> */}
         </Container>
         
 

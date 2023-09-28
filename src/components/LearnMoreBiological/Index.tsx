@@ -4,7 +4,7 @@ import React from "react";
 export function Biological() {
 
   return (
-    <section className="text-title mt-96">
+    <section className="text-title">
 
     <div className="flex justify-center pt-9 pb-9 text-xl bg-gray-300">
         <p className="text-3xl text-black">Transporte de Material Biológico</p>
@@ -53,7 +53,7 @@ export function Biological() {
             </div>
             </div>
         </div>
-        <div className=" flex flex-col lg:flex lg:flex-row mt-96">
+        <div className=" flex flex-col lg:flex lg:flex-row mt:12 lg:mt-8 ">
           <div className="mx-auto md:mx-0">
 
               <p className="text-center text-3xl mb-6 ">Mande sua mensagem</p>
