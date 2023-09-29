@@ -32,7 +32,7 @@ export function Home() {
 
             <FloatingWhatsApp 
                 accountName="Log Transportes"
-                phoneNumber="17996428126" //71988891370
+                phoneNumber="71988891370"
                 avatar={Logo}
                 chatMessage="Olá, como posso ajuda-lo?"
                 allowEsc={true}
