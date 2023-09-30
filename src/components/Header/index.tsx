@@ -78,7 +78,13 @@ export function Header() {
           <ul className="flex flex-col items-center p-0 m-0">
             {ListaDados.map((item, index) => (
               <li key={index} className="list-none mb-4 ">
-                <SmoothScrollAnchor targetId={item.href} children={item.name} styles={'text-base font-medium text-text hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer hover:py-2 focus:outline-none'}/>
+                {item.name == "Home" ? (
+                  <a  className='text-base font-medium text-text transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none'>
+                    <Link to='/'>Home</Link>
+                  </a>
+                ) : (
+                  <SmoothScrollAnchor targetId={item.href} children={item.name} styles={'text-base font-medium text-text transition duration-300 ease-in-out hover:border-b-2 hover:border-red-600 hover:text-red-600 hover:cursor-pointer focus:outline-none'}/>
+                )}
               </li>
             ))}
             <button className="bg-white mb-4 w-32 h-10 font-medium text-base text-black border border-gray-400 rounded-md shadow-md hover:bg-red-600 hover:text-white hover:border-red-600 hover:cursor-pointer focus:outline-none transition duration-300 ease-in-out">
@@ -90,25 +96,5 @@ export function Header() {
         </div>
       )}
     </div>
-    // <Container>
-    //   <Content>
-    //     <ImageBackground src={Logo} />
-    //   </Content>
-    //   <ContentList>
-    //     {ListaDados.map(item => (
-    //       <ItemsList>
-    //         <Text href={item.href} className="hover-underline-animation">{item.name}</Text>
-    //       </ItemsList>
-    //     ))}
-    //   </ContentList>
-
-    //   <Content>
-    //     <Button  className="button">
-    //       <TextButton href="https://loglogin.azurewebsites.net/" target="_blank">
-    //         Área do Cliente
-    //       </TextButton>
-    //     </Button>
-    //   </Content>
-    // </Container>
   );
 }

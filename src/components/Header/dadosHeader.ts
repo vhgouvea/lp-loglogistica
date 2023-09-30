@@ -12,7 +12,7 @@ const ListaDados = [
     href: "services"
   },
   {
-    name: 'Nossos Clientes',
+    name: 'Depoimentos',
     href: "testimonial"
   },
   {
