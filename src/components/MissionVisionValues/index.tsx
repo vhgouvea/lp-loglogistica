@@ -11,7 +11,7 @@ import Visao from '../../assets/visao.png';
 
 export function MissionVisionValues() {
   return (
-    <div className="flex flex-wrap justify-center mt-8 sm:mt-16 md:mt-24">
+    <div className="flex flex-wrap justify-center mt-64 sm:mt-24 md:mt-32">
       {/* Mission Card */}
       <div className="w-full sm:w-1/2 md:w-1/3 p-4 sm:p-8">
         <div className="text-center">
