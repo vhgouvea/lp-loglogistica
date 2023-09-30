@@ -1,6 +1,8 @@
 
 import React from "react";
 
+import Vans from '../../assets/vans.jpg';
+
 export function Car() {
 
   return (
@@ -15,7 +17,7 @@ export function Car() {
           <p>Acompanhando a crescente demanda de nossos clientes, a LOG TRANSPORTES oferece solução logística para o fornecimento de veículos utilitários, com ou sem motoristas habilitados para o transporte contínuo de mercadorias, de forma exclusiva e dedicada.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
-        <img className="max-w-[400px] max-h-[400px]" src="https://via.placeholder.com/400x400" alt="" />
+        <img className="max-w-[400px] max-h-[400px]" src={Vans} alt="" />
             <div>
             
             <div>

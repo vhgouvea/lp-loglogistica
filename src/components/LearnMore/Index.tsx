@@ -1,6 +1,9 @@
 
 import React from "react";
 
+
+import Funcionarios from '../../assets/funcionarios.jpg'
+
 export function Team() {
 
   return (
@@ -15,7 +18,7 @@ export function Team() {
           <p>Quando o nosso parceiro necessita de colaborador para o seu quadro administrativo ou operacional, a LOG fornece profissional já adaptado e com experiência.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
-        <img className="max-w-[400px] max-h-[400px]" src="https://via.placeholder.com/400x400" alt="" />
+        <img className="max-w-[400px] max-h-[400px]" src={Funcionarios} alt="" />
             <div>
             
             <div>

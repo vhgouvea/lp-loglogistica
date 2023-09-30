@@ -1,6 +1,8 @@
 
 import React from "react";
 
+import MaterialBiologico from '../../assets/caixa-termica.jpg'
+
 export function Biological() {
 
   return (
@@ -15,7 +17,7 @@ export function Biological() {
           <p>A LOG TRANSPORTES possui alvará de Saúde emitido pela coordenação de vigilância sanitária municipal (visa), órgão responsável pela fiscalização e emissão da autorização para o transporte das amostras.</p>
         </div>
         <div className="flex gap-x-12 max-w-5xl mx-auto lg:mb-12 max-h-[400px] flex-col lg:flex-row mb-80">
-            <img className="max-w-[400px] max-h-[400px]" src="https://via.placeholder.com/400x400" alt="" />
+            <img className="max-w-[400px] max-h-[400px]" src={MaterialBiologico} alt="" />
             <div>
             <div>
               <p className="mb-3 mt-8">
