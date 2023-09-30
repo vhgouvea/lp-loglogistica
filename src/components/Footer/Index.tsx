@@ -44,7 +44,7 @@ export function Footer() {
         <div className="flex gap-x-1 justify-center text-black mb-3 container">
 
                 <li className="list-none">
-                    <a className="hover:text-red-600" href="/pagina-de-exemplo">Edifício Bahia Center - Av. Antonio Carlos Magalhaes N-2671, Bairro Itaigara, Cidade Salvador</a>
+                    <p className="hover:text-red-600">Edifício Bahia Center - Av. Antonio Carlos Magalhaes N-2671, Bairro Itaigara, Cidade Salvador</p>
                 </li>
                             
             </div>

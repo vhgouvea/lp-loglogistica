@@ -6,6 +6,10 @@ import Funcionarios from '../../assets/funcionarios.jpg'
 
 export function Team() {
 
+  async function SendEmail() {
+    console.log('Aqui')
+  }
+
   return (
     <section className="text-title">
 
@@ -58,35 +62,34 @@ export function Team() {
             </div>
         </div>
         <div className=" flex flex-col lg:flex lg:flex-row mt:12 lg:mt-8">
-          <div className="mx-auto md:mx-0">
+          <div className="mx-auto md:mx-0 mt-32">
 
               <p className="text-center text-3xl mb-6 ">Mande sua mensagem</p>
             <div className="border-b border-gray-200 max-w-lg mx-auto mb-6"></div>
               <form action="" method="POST" className="max-w-[560px] lg:w-[560px] w-[320px] sm:w-[420px] md:w-[620px]">
-                    <div className="flex flex-col max-w-lg gap-1">
-                        <label className="titulo">Nome:</label>
-                        <input type="text" id="nome" name="nome" required placeholder="nome:" className="border border-[#dad9d9] p-2"/>
-                    </div>
-                    <div className="flex flex-col max-w-lg gap-1 mt-8 mb-8">
-                        <label className="titulo">E-mail</label>
-                        <input type="email" id="email" name="email" required placeholder="email:" className="border border-[#dad9d9] p-2"/>
-                    </div>
-                    <div className="flex flex-col max-w-lg gap-1 mb-8">
-                        <label className="titulo">Celular:</label>
-                        <input type="tel" id="telefone" name="telefone" required placeholder="celular" className="border border-[#dad9d9] p-2 phone"/>
-                    </div>
-                    <div className="flex flex-col max-w-lg gap-1 mb-8">
-                        <label className="titulo">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" className="border border-[#dad9d9] p-2 pb-16 resize-none" placeholder="Escreva sua mensagem aqui"></textarea>
-                    </div>
-                    <div className="flex justify-center max-w-lg mb-12 lg:mb-0"> 
-                        <button type="submit" className="rounded-[70px] bg-[#ff3b3b] px-16 py-3 text-lg text-[#ffffff]  md:text-xl hover:hover:bg-[#bb3f3f] max-w-[296px] md:max-w-[316px]">Enviar</button>
-                    </div>
-                    <input type="hidden" name="accessKey" value=""/>
-                </form>
-                
+                <div className="flex flex-col max-w-lg gap-1">
+                    <label className="titulo">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="nome:" className="border border-[#dad9d9] p-2"/>
+                </div>
+                <div className="flex flex-col max-w-lg gap-1 mt-8 mb-8">
+                    <label className="titulo">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="email:" className="border border-[#dad9d9] p-2"/>
+                </div>
+                <div className="flex flex-col max-w-lg gap-1 mb-8">
+                    <label className="titulo">Celular:</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="celular" className="border border-[#dad9d9] p-2 phone"/>
+                </div>
+                <div className="flex flex-col max-w-lg gap-1 mb-8">
+                    <label className="titulo">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" className="border border-[#dad9d9] p-2 pb-16 resize-none" placeholder="Escreva sua mensagem aqui"></textarea>
+                </div>
+                <div className="flex justify-center max-w-lg mb-12 lg:mb-0"> 
+                    <button type="submit" onClick={SendEmail} className="rounded-[70px] bg-[#ff3b3b] px-16 py-3 text-lg text-[#ffffff]  md:text-xl hover:hover:bg-[#bb3f3f] max-w-[296px] md:max-w-[316px]">Enviar</button>
+                </div>
+                <input type="hidden" name="accessKey" value=""/>
+              </form>    
             </div>
-            <div className="w-full ">
+            <div className="w-full mt-32">
             <p className="text-center mx-auto text-3xl pb-6" >Entre em contato</p>
             <div className="border-b border-gray-200 max-w-lg mx-auto"></div>
               <div className="max-w-[280px] text-center sm:text-start mx-auto sm:mx-0  lg:mx-auto mt-7 space-y-6 ">

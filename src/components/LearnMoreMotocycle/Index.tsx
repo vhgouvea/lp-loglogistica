@@ -59,7 +59,7 @@ export function Motoboy() {
         <div className=" flex flex-col lg:flex lg:flex-row mt:12 lg:mt-8">
           <div className="mx-auto md:mx-0">
 
-              <p className="text-center text-3xl mb-6 ">Mande sua mensagem</p>
+              <p className="text-center text-3xl mb-6 mt-32">Mande sua mensagem</p>
             <div className="border-b border-gray-200 max-w-lg mx-auto mb-6"></div>
               <form action="" method="POST" className="max-w-[560px] lg:w-[560px] w-[320px] sm:w-[420px] md:w-[620px]">
                     <div className="flex flex-col max-w-lg gap-1">
@@ -86,7 +86,7 @@ export function Motoboy() {
                 
             </div>
             <div className="w-full ">
-            <p className="text-center mx-auto text-3xl pb-6" >Entre em contato</p>
+            <p className="text-center mx-auto text-3xl pb-6 mt-32" >Entre em contato</p>
             <div className="border-b border-gray-200 max-w-lg mx-auto"></div>
               <div className="max-w-[280px] text-center sm:text-start mx-auto sm:mx-0  lg:mx-auto mt-7 space-y-6 ">
                   <div className="flex gap-x-2 items-center">
