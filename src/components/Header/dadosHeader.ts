@@ -4,7 +4,7 @@ const ListaDados = [
     href: "home"
   },
   {
-    name: 'Conheço a Log',
+    name: 'Conheça a Log',
     href: "aboutUs"
   },
   {
