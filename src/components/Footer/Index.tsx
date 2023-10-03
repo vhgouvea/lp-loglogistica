@@ -41,13 +41,11 @@ export function Footer() {
               </div>
             </div>
           </div>
-        <div className="flex gap-x-1 justify-center text-black mb-3 container">
-
-                <li className="list-none">
-                    <p className="hover:text-red-600">Edifício Bahia Center - Av. Antonio Carlos Magalhaes N-2671, Bairro Itaigara, Cidade Salvador</p>
-                </li>
-                            
-            </div>
+          <div className="flex gap-x-1 justify-center text-black mb-3 container">
+            <li className="list-none">
+              <p className="hover:text-red-600">Edifício Bahia Center - Av. Antonio Carlos Magalhaes N-2671, Bairro Itaigara, Cidade Salvador</p>
+            </li>            
+          </div>
           <div className="border-t-2 border-b-2 border-solid border-gray-300">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5578.056768869889!2d-38.473401283016194!3d-12.988893777813278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3889fb574b%3A0x3e98edcaaf0fdf3d!2sEdif%C3%ADcio%20Bahia%20Center!5e0!3m2!1spt-BR!2sbr!4v1695940394529!5m2!1spt-BR!2sbr"
