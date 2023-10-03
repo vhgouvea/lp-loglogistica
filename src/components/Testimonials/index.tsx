@@ -105,7 +105,7 @@ export function Testimonials() {
 
   return (
     <div id="testimonial" className="p-4 mt-24 w-full">
-      <div className="w-full mx-auto relative" style={{ maxHeight: "400px" }}>
+      <div className="w-full mx-auto relative">
         <button
           className="absolute left-0 top-1/2 transform -translate-y-1/2 items-center text-white rounded-md p-0"
           onClick={handlePrev}
@@ -153,7 +153,7 @@ export function Testimonials() {
           <p className="text-title text-2xl md:text-xl font-poppins">
             Depoimentos
           </p>
-          <div className="bg-white p-4 rounded-lg shadow-md flex flex-col justify-center items-center">
+          <div className="bg-white p-4 rounded-lg shadow-md flex flex-col justify-center items-center" style={{ height: "300px" }}>
             <p className="text-base text-text font-normal font-poppins">
               "{testimonialsData[currentIndex].text}"
             </p>
