@@ -153,7 +153,7 @@ export function Testimonials() {
           <p className="text-title text-2xl md:text-xl font-poppins">
             Depoimentos
           </p>
-          <div className="bg-white p-4 rounded-lg shadow-md flex flex-col justify-center items-center" style={{ height: "300px" }}>
+          <div className="bg-white p-4 rounded-lg shadow-md flex flex-col justify-center items-center">
             <p className="text-base text-text font-normal font-poppins">
               "{testimonialsData[currentIndex].text}"
             </p>
